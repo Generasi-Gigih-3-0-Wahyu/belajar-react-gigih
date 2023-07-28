@@ -31,7 +31,6 @@ interface OptionI {
 
 export const Combobox: React.FC<OptionI> = ({options, value, setValue}) => {
   const [open, setOpen] = React.useState(false);
-  // const [value, setValue] = React.useState("");
 
   return (
     <Popover open={open} onOpenChange={setOpen}>
