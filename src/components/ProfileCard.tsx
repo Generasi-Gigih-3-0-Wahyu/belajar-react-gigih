@@ -22,7 +22,7 @@ const ProfileCard: FC<ProfileCardProps> = ({
         <p
           className={cn(
             "text-sm",
-            gender === "Male" ? "text-blue-600" : gender === "Female" ? "text-pink-600" : ""
+            gender === "Male" ? "text-blue-600" : "text-pink-600"
           )}
         >
           {gender}
